@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/84666331-pila-di-fiches-da-poker-su-un-tavolo-da-poker-verde-da-gioco-con-dadi-da-poker-al-casinò-giocare-con-i-.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tavolo-da-gioco {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.dado {
+  width: 150px;
+  height: 150px;
+  background-color: #FFFFFF;
+  position: relative;
+  font-size: 50px;
+  margin: 50px;
+  border: 2px solid black;
+}
+#dadoUtente , #dadoPC {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.box_risultato {
+  color: black;
+  width: 400px;
+  background-color: #FFFFFF;
+  border: 1px solid blue;
+  text-align: center;
+}
